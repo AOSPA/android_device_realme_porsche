@@ -111,9 +111,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.default \
     init.porsche.rc \
+    init.porsche.perf.rc \
     init.qti.ufs.rc \
     init.target.rc \
-    ueventd.porsche.rc
+    ueventd.porsche.rc \
+    init.porsche.post_boot.sh
 
 # Keymaster
 PRODUCT_PACKAGES += \

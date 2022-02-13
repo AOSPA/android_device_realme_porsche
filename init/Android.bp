@@ -26,6 +26,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.porsche.perf.rc",
+    src: "init.porsche.perf.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.target.rc",
     src: "init.target.rc",
     sub_dir: "init/hw",
@@ -37,4 +44,10 @@ prebuilt_etc {
     filename: "ueventd.rc",
     src: "ueventd.porsche.rc",
     device_specific: true,
+}
+
+sh_binary {
+    name: "init.porsche.post_boot.sh",
+    src: "init.porsche.post_boot.sh",
+    vendor: true,
 }

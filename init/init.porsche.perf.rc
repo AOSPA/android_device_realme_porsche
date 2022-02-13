@@ -1,0 +1,15 @@
+#
+# Copyright (C) 2023 Paranoid Android
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+service porsche-post-boot /vendor/bin/sh /vendor/bin/init.porsche.post_boot.sh
+    class core
+    user root
+    group root system wakelock graphics
+    disabled
+    oneshot
+
+on property:sys.boot_completed=1
+    start porsche-post-boot
