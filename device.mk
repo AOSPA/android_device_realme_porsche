@@ -3,8 +3,8 @@ DEVICE_PATH := device/realme/porsche
 HARDWARE_PATH := hardware/oplus
 QCOM_COMMON_PATH := device/qcom/common
 
-# A/B
-$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
+# Enable virtual A/B compression
+$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/compression.mk)
 
 PRODUCT_PACKAGES += \
     update_engine \
