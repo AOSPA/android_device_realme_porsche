@@ -161,6 +161,10 @@ PRODUCT_PACKAGES += \
 # Partitions - FRP
 BOARD_FRP_PARTITION_NAME := frp
 
+# Performance
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/perf/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
+
 # QTI Components
 TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
