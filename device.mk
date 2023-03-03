@@ -136,6 +136,10 @@ PRODUCT_PACKAGES += \
    android.hardware.keymaster@4.1 \
    android.hardware.keymaster@4.1.vendor
 
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
+
 # Manifests
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/manifest_lahaina.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
