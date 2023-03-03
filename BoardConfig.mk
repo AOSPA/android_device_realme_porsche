@@ -95,6 +95,9 @@ KERNEL_CUSTOM_LLVM := true
 KERNEL_FULL_LLVM := true
 KERNEL_DEFCONFIG := lahaina-qgki_defconfig
 
+# Lineage Health
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/oplus_chg/battery/mmi_charging_enable
+
 # OTA Assert
 TARGET_OTA_ASSERT_DEVICE := porsche,RE58B2L1
 
