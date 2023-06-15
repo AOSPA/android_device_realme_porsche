@@ -58,4 +58,5 @@ void vendor_load_properties() {
     OverrideProperty("ro.product.name", product_name);
     OverrideProperty("ro.build.fingerprint", build_fingerprint);
     OverrideProperty("ro.build.description", build_desc);
+    OverrideProperty("ro.boot.hardware.sku", "porsche");
 }
