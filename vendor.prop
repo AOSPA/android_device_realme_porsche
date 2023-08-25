@@ -40,6 +40,9 @@ persist.vendor.dpmhalservice.enable=1
 # Fingerprint
 persist.vendor.fp.template_updateflag=V1
 
+# Fuse Passthrough
+persist.sys.fuse.passthrough.enable=true
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
