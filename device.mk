@@ -29,6 +29,10 @@ AB_OTA_POSTINSTALL_CONFIG += \
     FILESYSTEM_TYPE_vendor=ext4 \
     POSTINSTALL_OPTIONAL_vendor=true
 
+# Apex
+TARGET_SUPPORTS_UPDATABLE_APEX := true
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
