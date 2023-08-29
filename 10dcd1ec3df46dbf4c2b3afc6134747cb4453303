@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "052e75f8_bfc4c2c6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2023-08-29T05:32:19Z",
+      "side": 1,
+      "message": "do you think this would make sense to add in vendor/aospa?\n\nhttps://github.com/AOSPA/android_vendor_aospa/blob/topaz/target/product/aospa-target.mk#L87",
+      "revId": "10dcd1ec3df46dbf4c2b3afc6134747cb4453303",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
