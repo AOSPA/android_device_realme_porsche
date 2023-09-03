@@ -40,8 +40,8 @@
          when adapting to brighter or darker environments.  This parameter controls how quickly
          brightness changes occur in response to an observed change in light level that exceeds the
          hysteresis threshold. -->
-    <integer name="config_autoBrightnessBrighteningLightDebounce">1500</integer>
-    <integer name="config_autoBrightnessDarkeningLightDebounce">1500</integer>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">4000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">4000</integer>
 
     <!-- Array of hysteresis constraint values for brightening, represented as tenths of a
          percent. The length of this array is assumed to be one greater than
@@ -137,6 +137,7 @@
         <item>940</item>
         <item>960</item>
         <item>1000</item>
+        <item>1100</item>
     </array>
 
     <!-- Array of light sensor lux values to define our levels for auto backlight brightness support.
@@ -201,6 +202,7 @@
         <item>208271</item>
         <item>223180</item>
         <item>255108</item>
+        <item>380000</item>
     </integer-array>
 
     <!-- Array of hysteresis constraint values for brightening, represented as tenths of a
