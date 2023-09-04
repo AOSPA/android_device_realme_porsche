@@ -1,4 +1,7 @@
 r_dir_file(system_server, vendor_proc_display)
+rw_dir_file(system_server, vendor_sysfs_battery_supply)
+rw_dir_file(system_server, vendor_sysfs_usb_supply)
 
 # allow system server to read fast charge node
 allow system_server vendor_sysfs_battery_supply:file { getattr open read };
+allow system_server vendor_sysfs_battery_supply:file rw_file_perms;
