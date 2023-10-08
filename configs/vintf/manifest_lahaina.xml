@@ -594,16 +594,6 @@
         <fqname>@1.2::ITrustedUI/default</fqname>
         <fqname>@1.2::ITrustedUI/qtee-vm</fqname>
     </hal>
-    <!-- TuiComm -->
-    <hal format="hidl">
-        <name>vendor.qti.hardware.tui_comm</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ITuiComm</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
     <!-- WLAN -->
     <hal format="hidl">
         <name>vendor.qti.hardware.wifi.wifilearner</name>
