@@ -204,7 +204,6 @@ TARGET_COMMON_QTI_COMPONENTS := \
     qseecomd \
     telephony \
     usb \
-    vibrator \
     wfd \
     wlan
 
@@ -241,6 +240,9 @@ PRODUCT_PACKAGES += \
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service.porsche
+
+PRODUCT_COPY_FILES += \
+    vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # VNDK
 NEED_AIDL_NDK_PLATFORM_BACKEND := true
