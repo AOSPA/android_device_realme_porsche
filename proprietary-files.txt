@@ -1016,13 +1016,6 @@ vendor/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode|5e1acd6e3d
 vendor/firmware/CAMERA_ICP.elf|d5e1a5d65150a40e8c9a40a51cb1592d302f4b5a
 vendor/firmware/CAMERA_ICP_170.elf|bc131ff61ff68cac893b42b37611ff007baff281
 vendor/firmware/tof8801_firmware.bin|d31c400790c7ee547ffa2ae5aa6c79988437399e
-vendor/lib/camera.device@3.2-impl.so|22994bc60c8247683753c1e0b227eaedc01e41c0
-vendor/lib/camera.device@3.3-impl.so|c8cb5da45814479f6d1af5ddff219aa191b3c959
-vendor/lib/camera.device@3.4-external-impl.so|09b490eab0d5a44abf224dec960fdc731aa3e5c8
-vendor/lib/camera.device@3.4-impl.so|cd34becbc4e348af4b58972fe3510f99a2056918
-vendor/lib/camera.device@3.5-external-impl.so|0b721aa3029aa2daf5d359715f963faa0d9021c7
-vendor/lib/camera.device@3.5-impl.so|e554f1444b9ca9abb20a6a4afa770fd89b6a4af6
-vendor/lib/camera.device@3.6-external-impl.so|d9de2622276b6d8ab54dd18e9334e07c47552614
 vendor/lib/libcamxexternalformatutils.so|926605103689958260131311c192384fc65de51f
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so|8939b5a9bd220c234cc0bbfe1f681d0ad4d7102c
 vendor/lib64/camera/components/com.qti.eisv2.so|30397a48c240404030682422c7141b794ea647f6
@@ -1073,13 +1066,6 @@ vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so|3c9ef02e73447356aaae
 vendor/lib64/camera/components/libdepthmapwrapper_secure.so|19cc9046278f39e14dc4fde665282d82fe35e88d
 vendor/lib64/hw/camera.qcom.so|9fd654fd589edc3dfee295b1ab99782b04c18223
 vendor/lib64/hw/com.qti.chi.override.so|78956d6a75e5532d0670cb6e5bf1abee32c41319
-vendor/lib64/camera.device@3.2-impl.so|d39c2c1039dbee65976385123ff6fccf4d54e3f6
-vendor/lib64/camera.device@3.3-impl.so|03079c24f5cbcf2792573bffb3dbcd59a112deeb
-vendor/lib64/camera.device@3.4-external-impl.so|f7b005ffb843f25d95e362f013357db219e6803d
-vendor/lib64/camera.device@3.4-impl.so|8c17ca7fd841a6a7775ab84b8ef83b9e9d40dd79
-vendor/lib64/camera.device@3.5-external-impl.so|55e9e7f84e517d541afd0bfcdd6af440849e062b
-vendor/lib64/camera.device@3.5-impl.so|c9135396fea95758f61d7a223fdbedc2c77edb3f
-vendor/lib64/camera.device@3.6-external-impl.so|616bccaeb920dc63349b1855a050863a16e690af
 vendor/lib64/com.qti.chiusecaseselector.so|ffc29093463060b4ed807bddcae45a2808f844c0
 vendor/lib64/com.qti.feature2.anchorsync.so|b8194ae358e9648651182ff1da211ae7e3f5ec17
 vendor/lib64/com.qti.feature2.demux.so|dd02cac28362ec8737d3af1628d20def3b8ed9ce
