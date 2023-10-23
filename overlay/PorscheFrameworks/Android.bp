@@ -1,4 +1,4 @@
 runtime_resource_overlay {
     name: "PorscheFrameworks",
-    device_specific: true,
+    product_specific: true,
 }
