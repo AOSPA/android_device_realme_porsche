@@ -58,9 +58,6 @@ function blob_fixup() {
         odm/etc/camera/CameraHWConfiguration.config)
             sed -i "/SystemCamera = / s/1;/0;/g" "${2}"
             ;;
-        odm/etc/dolby/multimedia_dolby_dax_default.xml)
-            sed -i "/volume-leveler-enable/ s/true/false/g" "${2}"
-            ;;
         vendor/lib/libgui1_vendor.so)
             "${PATCHELF}" --replace-needed "libui.so" "libui-v30.so" "${2}"
             ;;
