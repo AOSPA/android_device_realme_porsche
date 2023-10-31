@@ -45,4 +45,6 @@
     <!-- Whether device supports increased touch sensitvity -->
     <bool name="config_supportTouchPollingMode">true</bool>
 
+    <!-- The Enrollment Progress bar for UDFPS sensor in pixels -->
+    <integer name="config_udfpsEnrollProgressBar" translatable="false">99</integer>
 </resources>
