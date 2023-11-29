@@ -18,3 +18,9 @@ cc_library_static {
     shared_libs: ["libbase"],
     srcs: ["init_porsche.cpp"],
 }
+
+runtime_resource_overlay {
+    name: "WifiResTargetMainline",
+    manifest: "AndroidGoogleManifest.xml",
+    vendor: true,
+}

@@ -181,7 +181,8 @@ PRODUCT_PACKAGES += \
     PorscheSettings \
     PorscheSettingsProvider \
     PorscheSystemUI \
-    PorscheWifiResTarget
+    PorscheWifiResTarget \
+    PorscheWifiResTargetMainline
 
 # Partitions - Dynamic
 PRODUCT_USE_DYNAMIC_PARTITIONS := true

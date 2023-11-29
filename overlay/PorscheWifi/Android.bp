@@ -2,3 +2,9 @@ runtime_resource_overlay {
     name: "PorscheWifiResTarget",
     vendor: true,
 }
+
+runtime_resource_overlay {
+    name: "PorscheWifiResTargetMainline",
+    manifest: "AndroidGoogleManifest.xml",
+    vendor: true,
+}
