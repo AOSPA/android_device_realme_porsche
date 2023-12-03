@@ -16,6 +16,24 @@
       "message": "have to push 32bit variant of the blob as well",
       "revId": "63d37b77f3f91daf8c01d1c36ff18653576de815",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b60cb4c4_bceded47",
+        "filename": "device.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2023-12-03T05:34:28Z",
+      "side": 1,
+      "message": "ah shit yea, lemme do that",
+      "parentUuid": "1ff46d27_1991d4b9",
+      "revId": "63d37b77f3f91daf8c01d1c36ff18653576de815",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
