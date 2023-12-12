@@ -261,7 +261,7 @@ odm/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt|5fd69ee6ca0c4e9d7e4
 odm/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt|e5ce71184101b0252953abeed6cd765dcf394419
 odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt|3fccde2f0c831d44321f8c71d318e3ec8cc25993
 odm/lib/liblvimfs.so|51955be664d0d88044d212c9f1f96924eeb816f7
-odm/lib/liblvimfs_wrapper.so|d099f079a134900932db8fb2417b4e98e14ea05d
+odm/lib/liblvimfs_wrapper.so|75b025338b0c966a9cdee22072304240bea9580c
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
@@ -896,7 +896,7 @@ odm/lib64/libAncHumanSegFigureFusion.so|9ed55a46ac71e645b86be98d3e88c688b5b8d3d6
 odm/lib64/libAncSegBaseSdk.so|6f8b18b9a87daa9fe7ef83c2b407bde5fc019276
 odm/lib64/libAncSegmentSdk.so|d464040a58435c58e0441728bb127b058338432c
 odm/lib64/libBokehPre.so|bc6ebdd234689cf253e23d27728c32d0ae83ee7e
-odm/lib64/libCOppLceTonemapAPI.so|30129dcefe6fa848e210d2c9d284ec67dc613b83
+odm/lib64/libCOppLceTonemapAPI.so|7b78ac73fa568b33bfc2aa561bb19462d4936993
 odm/lib64/libCaptureBokeh.so|90ba270cf6c5a95df943d52718290d6f41f12fdc
 odm/lib64/libDeVIS.so|03216e246a7d6cd1bf6bed9fd353beab4001a174
 odm/lib64/libEIS.so|fc5efecd298af08ad2d5b15606eaadb9518b9cb5
@@ -942,7 +942,7 @@ odm/lib64/libancbase_rt_fusion.so|c185c4e77f38a68157b2a532532b39e9679ce2d2
 odm/lib64/libancbase_rt_retain.so|c185c4e77f38a68157b2a532532b39e9679ce2d2
 odm/lib64/libancbase_segbase.so|33b83d782321124ab0fdaee922c16645574627de
 odm/lib64/libancbase_segment.so|330ca26fffb1c80936c157ee7bd249dc0ed96b01
-odm/lib64/libaps_frame_registration.so|e8bb3657399edbb008a8a8395c88a33d702d6015
+odm/lib64/libaps_frame_registration.so|1e7058f88d5e7092622c47a3c6a630bde1a5461b
 odm/lib64/libapsdarksight.so|a6cbd43bdc984cf4b89c7612281d50c8e8cc231a
 odm/lib64/libapsexif.so|601e9b84e5f93e2345fe0ddf8fec0b6bcb29bbed
 odm/lib64/libapsjpeg.so|8c60c67b4cb396db2ff4371a500823a1e6561387
@@ -1098,7 +1098,7 @@ vendor/lib64/com.qualcomm.mcx.policy.mfl.so|7f2cfa28c9ba3065bc4afd9a724c5b5a267b
 vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so|d6995cc8fa2fef2c8ea7af071f7be82d731209a6
 vendor/lib64/libSonyIMX471RmscLibrary.so|7deb61212e4d44311e99292e61252509c0b80fa2
 vendor/lib64/libaidenoiser.so|39d3096648ca55783a0a3a6e546bba4f094bfc54
-vendor/lib64/libalsc.so|2fa3a5a43d9da27d1b9bba380b37a73a732ba215
+vendor/lib64/libalsc.so|044f490b452f53d44891ef27606fe885e12865fc
 vendor/lib64/libbitmlengine.so|17243f9cffec35701abcf8124b70462960206fbf
 vendor/lib64/libbitmlenginev2.so|386e73ee684521966084bbc4b26d740e8b1500f0
 vendor/lib64/libcamera_nn_stub.so|532001484fc848b9813d9fd9aac07e6cc265a38d
