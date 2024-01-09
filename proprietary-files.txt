@@ -1860,7 +1860,6 @@ odm/etc/wifi/bdwlang.elf|b07cee3b1fdbb06a9eb692419811b5ca6c0219a9
 odm/etc/wifi/bdwlanw.elf|68d3982e720c8cc52e7863918a56d87340edcd2d
 odm/etc/wifi/cnss_diag_always_on.conf|7c8d94e909d88205adf3bdb428cb6a39f012cabc
 odm/etc/wifi/regdb.bin|a83440a189fb5dc0e15cdb3b21a15dcf1528f0f1
-odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini|acf65f6abc8f5d3a9c5e9a6b01f8eaf09a28924e
 vendor/etc/wifi/p2p_supplicant_overlay.conf|05f22cd82cbe806d46185a3e5ce69c86cd307128
 vendor/etc/wifi/wpa_supplicant_overlay.conf|fd618998d3dcd4b3a408807fa629967c378ac45a
 
