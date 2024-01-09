@@ -99,7 +99,7 @@ KERNEL_DEFCONFIG := lahaina-qgki_defconfig
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/oplus_chg/battery/mmi_charging_enable
 
 # OTA Assert
-TARGET_OTA_ASSERT_DEVICE := porsche,RE58B2L1
+TARGET_OTA_ASSERT_DEVICE := porsche|RE58B2L1
 
 # Partitions - A/B
 AB_OTA_PARTITIONS := boot dtbo odm product system system_ext vendor vendor_boot vbmeta vbmeta_system vbmeta_vendor
