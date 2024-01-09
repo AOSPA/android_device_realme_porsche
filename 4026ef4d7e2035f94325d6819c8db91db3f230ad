@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d14470f8_df12186e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2024-01-09T08:32:45Z",
+      "side": 1,
+      "message": "Kunmun/Sourav, please update the vendor accordingly.",
+      "revId": "4026ef4d7e2035f94325d6819c8db91db3f230ad",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
