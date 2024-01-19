@@ -33,3 +33,6 @@ write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/up_rate_limit_us 500
 write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/down_rate_limit_us 20000
 write /sys/devices/system/cpu/cpu7/cpufreq/schedutil/up_rate_limit_us 500
 write /sys/devices/system/cpu/cpu7/cpufreq/schedutil/down_rate_limit_us 20000
+
+# SSG
+write /dev/blkio/background/blkio.ssg.max_available_ratio 25
