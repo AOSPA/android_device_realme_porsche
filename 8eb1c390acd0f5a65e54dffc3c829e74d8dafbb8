@@ -16,6 +16,23 @@
       "message": "naah",
       "revId": "8eb1c390acd0f5a65e54dffc3c829e74d8dafbb8",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e34b3ef8_4d23c59e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000760
+      },
+      "writtenOn": "2024-02-22T15:50:30Z",
+      "side": 1,
+      "message": "it\u0027s just a clutter. let it be",
+      "revId": "8eb1c390acd0f5a65e54dffc3c829e74d8dafbb8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
